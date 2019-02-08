@@ -10,7 +10,6 @@ buttonMinus.addEventListener('click', subtractFrom);
 
 function addTo() {
     let countBy = inputNumber.value;
-    if (typeof countBy !== 'number') return alert('Numbers only, please!');
     count = count + parseInt(countBy);
     countDisplay.removeChild(countDisplay.childNodes[0]);
     countDisplay.innerHTML = `<span>${count}</span>`;
@@ -19,7 +18,6 @@ function addTo() {
 
 function subtractFrom() {
     let countBy = inputNumber.value;
-    if (typeof countBy !== 'number') return alert('Numbers only, please!');
     count = count - parseInt(countBy);
     countDisplay.removeChild(countDisplay.childNodes[0]);
     countDisplay.innerHTML = `<span>${count}</span>`;
