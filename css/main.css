@@ -1,0 +1,55 @@
+main {
+    font-family: 'Orbitron', sans-serif;
+    margin: 10% auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+}
+
+#count {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 auto;
+    font-size: 5rem;
+    height: 150px;
+    text-align: center;
+    position: center;
+}
+
+#inputs {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+    display: flex;
+    height: 100px;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    width: 25%;
+    border-radius: 15px;
+    background: #A9A9A9;
+}
+
+button:hover {
+    background-color: white;
+}
+
+input {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    width: 40%;
+    text-align: center;
+    border: solid 5px #A9A9A9;
+    border-radius: 15px;
+}
+
+#button-plus {
+    margin: 0 5% 0 0;
+}
+
+#button-minus {
+    margin: 0 0 0 5%;
+}
